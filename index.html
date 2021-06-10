@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Marine</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" type="text/css" href="css/glider.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="header_nav">
+				<div class="inner header_inner">
+					<div class="header_title">
+						<div class="head_logo">
+							<img src="images/logo_header.jpg" alt="logo header">
+						</div>
+					</div>
+					<div class="header_social">
+						<span id="header_call">
+							<a>CALL US: +1 800 450 17 04 |</a>
+						</span>
+						<button id="phone" onclick="show(phone)">
+							<img src="images/phone.png" alt="phone">
+						</button>
+						<div class="social_icons">
+							<a class="social icons_item" href="#">
+								<img src="images/facebook.png" alt="facebook">
+							</a>
+							<a class="social icons_item" href="#">
+								<img src="images/twitter.png" alt="twitter">
+							</a>
+							<a class="social icons_item" href="#">
+								<img src="images/skype.png" alt="skype">
+							</a>
+							<a class="social icons_item" href="#">
+								<img src="images/google.png" alt="google+">
+							</a>
+							<a class="social icons_item" href="#">
+								<img src="images/v.png" alt="vimeo">
+							</a>
+							<a class="social icons_item" href="#">
+								<img src="images/in.png" alt="linkedin">
+							</a>
+							<a id="social" class="social icons_item" href="#">
+								<img src="images/instagram.png" alt="instagram">
+							</a>
+							<button id="social_button" onclick="show(icon)">
+								<img src="images/share.png" alt="share">
+							</button>
+						</div>
+					</div>
+					<div id="socials_for_mobile" class="socials_for_mobile">
+						<img src="images/form_search.png" alt="dialog window">
+						<div class="mobile_icons">
+							<a class="social" href="#">
+								<img src="images/facebook.png" alt="facebook">
+							</a>
+							<a class="social" href="#">
+								<img src="images/twitter.png" alt="twitter">
+							</a>
+							<a class="social" href="#">
+								<img src="images/skype.png" alt="skype">
+							</a>
+							<a class="social" href="#">
+								<img src="images/google.png" alt="google+">
+							</a>
+							<a class="social" href="#">
+								<img src="images/v.png" alt="vimeo">
+							</a>
+							<a class="social" href="#">
+								<img src="images/in.png" alt="linkedin">
+							</a>
+							<a class="social" href="#">
+								<img src="images/instagram.png" alt="instagram">
+							</a>
+						</div>
+						<div class="background_mobile"></div>
+					</div>
+					<div id="phone_for_mobile" class="phone_for_mobile">
+						<img src="images/form_search.png" alt="dialog window">
+						<div class="phone_text">
+							CALL US: +1 800 450 17 04
+						</div>
+						<div class="background_mobile"></div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</header>
+	<section class="nav">
+		<div class="container">
+			<nav>
+				<div class="inner nav_inner">
+					<div class="nav_menu">
+						<ul>
+							<li>
+								<a class="nav_title" href="#">HOME
+									<img class="nav_arrow" src="images/nav_arrow.png" alt="arrow">
+									<img class="nav_blue_arrow" src="images/blue_arrow.png" alt="blue arrow">
+								</a>
+							</li>
+							<li>
+								<a class="nav_title" href="#">BLOG
+									<img class="nav_arrow" src="images/nav_arrow.png" alt="arrow">
+									<img class="nav_blue_arrow" src="images/blue_arrow.png" alt="blue arrow">
+								</a>
+							</li>
+							<li>
+								<a class="nav_title" href="#">GALLERY
+									<img class="nav_arrow" src="images/nav_arrow.png" alt="arrow">
+									<img class="nav_blue_arrow" src="images/blue_arrow.png" alt="blue arrow">
+								</a>
+							</li>
+							<li>
+								<a class="nav_title" href="#">PAGES
+									<img class="nav_arrow" src="images/nav_arrow.png" alt="arrow">
+									<img class="nav_blue_arrow" src="images/blue_arrow.png" alt="blue arrow">
+								</a>
+							</li>
+							<li>
+								<a class="nav_title" href="#">CONTACTS
+									<img class="nav_arrow" src="images/nav_arrow.png" alt="arrow">
+									<img class="nav_blue_arrow" src="images/blue_arrow.png" alt="blue arrow">
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="nav_search">
+						<button onclick="showhide(search)" class="search">
+							<img src="images/search1.png" alt="search">
+						</button>
+					</div>
+					<div id="form_search" class="form_search">
+						<img src="images/form_search.png" alt="search form">
+						<form>
+							<input class="text_search" type="text" placeholder="    Search ...">
+							<button class="search_button" type="submit"></button>
+						</form>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</section>
+	<section class="main_slider">
+		<div class="container">
+			<div class="slider slider_logo">
+				<img src="images/ship.png" alt="ship logo">
+				<h1>NATURAL POWER</h1>
+				<p class="text_logo"> VIVAMUS ORGI SEM, CONSECTETUR UT VESTIBULUM.</p>
+			</div>
+			<div class="slider slider_arrows">
+				<button class="arrow arrow_prev" id="prev">
+					<img src="images/arrow_left.png" alt="arrow left">
+				</button>
+				<button class="arrow arrow_next" id="next">
+					<img src="images/arrow_right.png" alt="arrow right">
+				</button>
+			</div>
+			<ul id="slider_images">
+				<li class="slide active"><img src="images/intro.png" alt="intro"></li>
+				<li class="slide"><img src="images/intro1.png" alt="intro1"></li>
+				<li class="slide"><img src="images/intro2.png" alt="intro2"></li>
+			</ul>
+		</div>
+	</section>
+	<section class="work">
+		<div class="container">
+			<div class="work_background"> </div>
+			<div class="inner work_inner">
+				<div class="web">
+					<div class="square">
+						<img src="images/square.png" alt="square">
+						<div class="web_square">
+							<img src="images/web.png" alt="web">
+						</div>
+					</div>
+					<p class="title_square">Web development</p>
+					<p class="text_square">IT WAS HARD TO MAKE IT SO COOL</p>
+				</div>
+				<div class="seo">
+					<div class="square">
+						<img src="images/square.png" alt="square">
+						<div class="web_square">
+							<img src="images/seo.png" alt="seo">
+						</div>
+					</div>
+					<p class="title_square">SEO Monitoting</p>
+					<p class="text_square">IT WAS HARD TO MAKE IT SO COOL</p>
+				</div>
+				<div class="network">
+					<div class="square">
+						<img src="images/square.png" alt="square">
+						<div class="web_square">
+							<img src="images/network.png" alt="network">
+						</div>
+					</div>
+					<p class="title_square">Network Communities</p>
+					<p class="text_square">IT WAS HARD TO MAKE IT SO COOL</p>
+				</div>
+				<div class="analytics">
+					<div class="square">
+						<img src="images/square.png" alt="square">
+						<div class="web_square">
+							<img src="images/analytics.png" alt="analytics">
+						</div>
+					</div>
+					<p class="title_square">Web analytics</p>
+					<p class="text_square">IT WAS HARD TO MAKE IT SO COOL</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="recent_projects">
+		<div class="container">
+			<h2 id="title_recent_projects">Recent Projects</h2>
+			<p id="text_proj">Morbi a libero eget erat auctor cursus vitae id tortor. Suspendisse rhoncus. Vestibulum eu
+				ligula lorem. <br />
+				Vivamus orci sem, consectetur ut vestibulum a, semper ac dui.</p>
+			<div class="glider_container">
+				<div class="glider">
+					<div class="glider_project">
+						<img src="images/project1.png" alt="project1">
+						<div class="project_about">
+							<button class="project_button link"></button>
+							<button class="project_button about"></button>
+						</div>
+						<div class="project_wrapper">
+							<img class="wrapper" src="images/project_wrapper.png" alt="project">
+							<img class="active_wrapper" src="images/active_project_wrapper.png"
+								alt="active project icon">
+							<div class="title">
+								<p class="project_title">Project Title</p>
+								<p class="text_title">GRAPHIC DESIGN</p>
+							</div>
+							<div class="heart">
+								<img class="heart_black" src="images/project_heart.png" alt="black like">
+								<img class="heart_red" src="images/project_redheart.png" alt="red like">
+								<span>12</span>
+							</div>
+						</div>
+					</div>
+					<div class="glider_project">
+						<img src="images/project2.png" alt="project2">
+						<div class="project_about">
+							<button class="project_button link"></button>
+							<button class="project_button about"></button>
+						</div>
+						<div class="project_wrapper">
+							<img class="wrapper" src="images/project_wrapper.png" alt="project">
+							<img class="active_wrapper" src="images/active_project_wrapper.png"
+								alt="active project icon">
+							<div class="title">
+								<p class="project_title">Project Title</p>
+								<p class="text_title">GRAPHIC DESIGN</p>
+							</div>
+							<div class="heart">
+								<img class="heart_black" src="images/project_heart.png" alt="black like">
+								<img class="heart_red" src="images/project_redheart.png" alt="red like">
+								<span>12</span>
+							</div>
+						</div>
+					</div>
+					<div class="glider_project">
+						<img src="images/project3.png" alt="project3">
+						<div class="project_about">
+							<button class="project_button link"></button>
+							<button class="project_button about"></button>
+						</div>
+						<div class="project_wrapper">
+							<img class="wrapper" src="images/project_wrapper.png" alt="project">
+							<img class="active_wrapper" src="images/active_project_wrapper.png"
+								alt="active project icon">
+							<div class="title">
+								<p class="project_title">Project Title</p>
+								<p class="text_title">GRAPHIC DESIGN</p>
+							</div>
+							<div class="heart">
+								<img class="heart_black" src="images/project_heart.png" alt="black like">
+								<img class="heart_red" src="images/project_redheart.png" alt="red like">
+								<span>12</span>
+							</div>
+						</div>
+					</div>
+					<div class="glider_project">
+						<img src="images/project4.png" alt="project4">
+						<div class="project_about">
+							<button class="project_button link"></button>
+							<button class="project_button about"></button>
+						</div>
+						<div class="project_wrapper">
+							<img class="wrapper" src="images/project_wrapper.png" alt="project">
+							<img class="active_wrapper" src="images/active_project_wrapper.png"
+								alt="active project icon">
+							<div class="title">
+								<p class="project_title">Project Title</p>
+								<p class="text_title">GRAPHIC DESIGN</p>
+							</div>
+							<div class="heart">
+								<img class="heart_black" src="images/project_heart.png" alt="black like">
+								<img class="heart_red" src="images/project_redheart.png" alt="red like">
+								<span>12</span>
+							</div>
+						</div>
+					</div>
+					<div class="glider_project">
+						<img src="images/project5.png" alt="project5">
+						<div class="project_about">
+							<button class="project_button link"></button>
+							<button class="project_button about"></button>
+						</div>
+						<div class="project_wrapper">
+							<img class="wrapper" src="images/project_wrapper.png" alt="project">
+							<img class="active_wrapper" src="images/active_project_wrapper.png"
+								alt="active project icon">
+							<div class="title">
+								<p class="project_title">Project Title</p>
+								<p class="text_title">GRAPHIC DESIGN</p>
+							</div>
+							<div class="heart">
+								<img class="heart_black" src="images/project_heart.png" alt="black like">
+								<img class="heart_red" src="images/project_redheart.png" alt="red like">
+								<span>12</span>
+							</div>
+						</div>
+					</div>
+					<div class="glider_project">
+						<img src="images/project6.png" alt="project6">
+						<div class="project_about">
+							<button class="project_button link"></button>
+							<button class="project_button about"></button>
+						</div>
+						<div class="project_wrapper">
+							<img class="wrapper" src="images/project_wrapper.png" alt="project">
+							<img class="active_wrapper" src="images/active_project_wrapper.png"
+								alt="active project icon">
+							<div class="title">
+								<p class="project_title">Project Title</p>
+								<p class="text_title">GRAPHIC DESIGN</p>
+							</div>
+							<div class="heart">
+								<img class="heart_black" src="images/project_heart.png" alt="black like">
+								<img class="heart_red" src="images/project_redheart.png" alt="red like">
+								<span>12</span>
+							</div>
+						</div>
+					</div>
+					<div class="glider_project">
+						<img src="images/project7.png" alt="project7">
+						<div class="project_about">
+							<button class="project_button link"></button>
+							<button class="project_button about"></button>
+						</div>
+						<div class="project_wrapper">
+							<img class="wrapper" src="images/project_wrapper.png" alt="project">
+							<img class="active_wrapper" src="images/active_project_wrapper.png"
+								alt="active project icon">
+							<div class="title">
+								<p class="project_title">Project Title</p>
+								<p class="text_title">GRAPHIC DESIGN</p>
+							</div>
+							<div class="heart">
+								<img class="heart_black" src="images/project_heart.png" alt="black like">
+								<img class="heart_red" src="images/project_redheart.png" alt="red like">
+								<span>12</span>
+							</div>
+						</div>
+					</div>
+					<div class="glider_project">
+						<img src="images/project1.png" alt="project1">
+						<div class="project_about">
+							<button class="project_button link"></button>
+							<button class="project_button about"></button>
+						</div>
+						<div class="project_wrapper">
+							<img class="wrapper" src="images/project_wrapper.png" alt="project">
+							<img class="active_wrapper" src="images/active_project_wrapper.png"
+								alt="active project icon">
+							<div class="title">
+								<p class="project_title">Project Title</p>
+								<p class="text_title">GRAPHIC DESIGN</p>
+							</div>
+							<div class="heart">
+								<img class="heart_black" src="images/project_heart.png" alt="black like">
+								<img class="heart_red" src="images/project_redheart.png" alt="red like">
+								<span>12</span>
+							</div>
+						</div>
+					</div>
+					<div class="glider_project">
+						<img src="images/project2.png" alt="project2">
+						<div class="project_about">
+							<button class="project_button link"></button>
+							<button class="project_button about"></button>
+						</div>
+						<div class="project_wrapper">
+							<img class="wrapper" src="images/project_wrapper.png" alt="project">
+							<img class="active_wrapper" src="images/active_project_wrapper.png"
+								alt="active project icon">
+							<div class="title">
+								<p class="project_title">Project Title</p>
+								<p class="text_title">GRAPHIC DESIGN</p>
+							</div>
+							<div class="heart">
+								<img class="heart_black" src="images/project_heart.png" alt="black like">
+								<img class="heart_red" src="images/project_redheart.png" alt="red like">
+								<span>12</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="details">
+		<div class="container">
+			<div class="inner details_inner">
+				<p>
+					<span id="details_text">A fully responsive theme</span>
+					with clean design for your success!
+				</p>
+				<button>
+					<img src="images/details.png " alt="details">
+					<span> CHECK DETAILS</span>
+				</button>
+			</div>
+		</div>
+	</section>
+	<section class="posts">
+		<div class="container">
+			<div class="inner">
+				<div class="recent_posts">
+					<h3>Recent Posts</h3>
+					<div class="post">
+						<div class="post_photo">
+							<p class="day">15</p>
+							<p class="date">OCT,2013</p>
+							<p class="photo">
+								<img src="images/camera.png" alt="camera">
+							<p>
+						</div>
+						<div class="image_post">
+							<img src="images/news.png" alt="post">
+						</div>
+						<div class="read_more">
+							<p class="link_posts">
+								<a href="#">BY ADMIN</a>
+								<img src="images/point.png" alt="point">
+								<a href="#">WEB,NEWS</a>
+								<img src="images/point.png" alt="point">
+								<a href="#">5 COMMENTS</a>
+								<img src="images/point.png" alt="point">
+								<a href="#">
+									<span>READ MORE</span>
+								</a>
+								<img src="images/post_arrow.png" alt="arrow">
+							</p>
+							<hr class="posts_line" />
+							<p class="post_title">Vivamus orci sem,conse tur per ac dui oin vulputate.</p>
+							<p class="post_text">Proin vulputstr aliquam mi nec hendrerit. Sed entum velit vel ipsum.
+							</p>
+						</div>
+					</div>
+					<div class="post">
+						<div class="post_photo">
+							<p class="day">25</p>
+							<p class="date">OCT,2013</p>
+							<p class="photo">
+								<img src="images/video.png" alt="video">
+							<p>
+						</div>
+						<div class="image_post">
+							<img src="images/news.png" alt="post">
+						</div>
+						<div class="read_more">
+							<p class="link_posts">
+								<a href="#">BY ADMIN</a>
+								<img src="images/point.png" alt="point">
+								<a href="#">WEB,NEWS</a>
+								<img src="images/point.png" alt="point">
+								<a href="#">5 COMMENTS</a>
+								<img src="images/point.png" alt="point">
+								<a href="#">
+									<span>READ MORE</span>
+								</a>
+								<img src="images/post_arrow.png" alt="arrow">
+							</p>
+							<hr class="posts_line" />
+							<p class="post_title">Orci sem,conse tur per ac dui oin tate.</p>
+							<p class="post_text">Proin vulputstr aliquam mi nec hendrerit. Sed entum velit vel ipsum. Ut
+								sem lacus, ttitor et aliqua. Eget, iaculis id lacus.</p>
+						</div>
+					</div>
+				</div>
+				<div class="accordeon">
+					<h3>Accordeon</h3>
+					<input class="accordeon_form" type="checkbox" id="acc1" name="acc" />
+					<label class="accordeon_page" for="acc1"> Vivamus orci sem sectetur.</label>
+					<p class="accordeon_text post_text">Sed entum velit vel ipsum bibendum em lacus, itor et aliquam
+						eget,
+						iaculis id lacus. Praesent tudin.<br><br>
+						Aiquam eget, iaculis id lacus. Praesent tudin. Ut sem lacus, ttitor putate uam mi nec hendrerit.
+					</p>
+					<input class="accordeon_form" type="checkbox" id="acc2" name="acc" />
+					<label class="accordeon_page" for="acc2"> Vivamus orci sem sectetur.</label>
+					<p class="accordeon_text post_text">Sed entum velit vel ipsum bibendum em lacus, itor et aliquam
+						eget,
+						iaculis id lacus. Praesent tudin.<br><br>
+						Aiquam eget, iaculis id lacus. Praesent tudin. Ut sem lacus, ttitor putate uam mi nec hendrerit.
+					</p>
+					<input class="accordeon_form" type="checkbox" id="acc3" name="acc" />
+					<label class="accordeon_page" for="acc3"> Vivamus orci sem sectetur.</label>
+					<p class="accordeon_text post_text">Sed entum velit vel ipsum bibendum em lacus, itor et aliquam
+						eget,
+						iaculis id lacus. Praesent tudin.<br><br>
+						Aiquam eget, iaculis id lacus. Praesent tudin. Ut sem lacus, ttitor putate uam mi nec hendrerit.
+					</p>
+				</div>
+				<div class="what_people_say">
+					<h3>What People Say</h3>
+					<div class="say_block">
+						<img id="people_wrapper" src="images/people_wrapper.png" alt="wrapper icon">
+						<div>
+							<img src="images/photo.png" alt="photo">
+						</div>
+						<div class="info_about">
+							<p class="people_name">Sarah Doe</p>
+							<p class="people_company">CEO, COMPANY.COM</p>
+						</div>
+					</div>
+					<div class="people_quotes">
+						<img src="images/quotes.png" alt="quotes icon">
+					</div>
+					<div class="people_text_quote">
+						<p class="quote_title post_title">Vivamus orci sem, consectetur ut vestibulum a,semper ac dui.
+						</p>
+						<p class="quote_text post_text">Proin vulputate aliquam mi nec rerit. Sed entum velit ve ipsum
+							bibendum tristique. Ut sem lacus, tutor putate liquam mi nec hendrerit.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="advantages">
+		<div class="container">
+			<div class="inner">
+				<div class="inner_picture">
+					<div class="pictures">
+						<div class="flexible_bigimg"><img src="images/office1.png" alt="monitor image"></div>
+						<div class="flexible_img"><img src="images/office3.png" alt="monitor image2"></div>
+						<div class="keyboard"><img src="images/keyboard.png" alt="keyboard image"></div>
+					</div>
+				</div>
+				<div class="inner_picture">
+					<div class="advantages_block">
+						<div class="icon_block">
+							<img src="images/teleg.png" alt="flexible">
+							<div class="advantages_about">
+								<p class="advantages_title">Flexible Solutions</p>
+								<p class="advantages_text">Lorem ipsum dolor sit amet, <span>tetur piscing</span> elit.
+									Suspendisse smod congue<br /> bibendum. Aliquam erat volutpat. Phasellus eget justo
+									lacus.</p>
+							</div>
+						</div>
+						<hr class="advantages_line" />
+						<div class="icon_block">
+							<img src="images/target.png" alt="target">
+							<div class="advantages_about">
+								<p class="advantages_title">Target Approach</p>
+								<p class="advantages_text">Lorem ipsum dolor sit amet, <span>tetur piscing</span> elit.
+									Suspendisse smod congue<br /> bibendum. Aliquam erat volutpat. Phasellus eget justo
+									lacus.</p>
+							</div>
+						</div>
+						<hr class="advantages_line" />
+						<div class="icon_block">
+							<img src="images/global.png" alt="global">
+							<div class="advantages_about">
+								<p class="advantages_title">Global Development</p>
+								<p class="advantages_text">Lorem ipsum dolor sit amet, <span>tetur piscing</span> elit.
+									Suspendisse smod congue<br /> bibendum. Aliquam erat volutpat. Phasellus eget justo
+									lacus.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="team">
+		<div class="container">
+			<div class="inner team_inner">
+				<p id="team_title">Our Team</p>
+				<div class="employee">
+					<img class="icon" src="images/ourteam4.png" alt="employee1">
+					<p class="employee_name">Sarah Doe</p>
+					<p class="employee_company">CEO</p>
+					<p class="employee_text">Proin vulputate aliquamimi nec rent. Sed entum velit vel ipsum bibendum
+						tristique.
+					</p>
+					<p class="employee_socials">
+						<a class="employee_socials_icon" href="#">
+							<img src="images/facebook.png" alt="facebook">
+						</a>
+						<a class="employee_socials_icon" href="#">
+							<img src="images/twitter.png" alt="twitter">
+						</a>
+						<a class="employee_socials_icon" href="#">
+							<img src="images/skype.png" alt="skype">
+						</a>
+						<a class="employee_socials_icon" href="#">
+							<img src="images/google.png" alt="google+">
+						</a>
+						<a class="employee_socials_icon" href="#">
+							<img src="images/v.png" alt="vimeo">
+						</a>
+						<a class="employee_socials_icon" href="#">
+							<img src="images/in.png" alt="linkedin">
+						</a>
+						<a class="employee_socials_icon" href="#">
+							<img src="images/instagram.png" alt="instagram">
+						</a>
+					</p>
+				</div>
+				<div class="employee">
+					<img class="icon" src="images/ourteam5.png" alt="employee2">
+					<p class="employee_name">Sarah Doe</p>
+					<p class="employee_company">CEO</p>
+					<p class="employee_text">Proin vulputate aliquamimi nec rent. Sed entum velit vel ipsum bibendum
+						tristique.
+					</p>
+					<p class="employee_socials">
+						<a class="employee_socials_icon" href="#">
+							<img src="images/facebook.png" alt="facebook">
+						</a>
+						<a class="employee_socials_icon" href="#">
+							<img src="images/twitter.png" alt="twitter">
+						</a>
+						<a class="employee_socials_icon" href="#">
+							<img src="images/skype.png" alt="skype">
+						</a>
+						<a class="employee_socials_icon" href="#">
+							<img src="images/google.png" alt="google+">
+						</a>
+						<a class="employee_socials_icon" href="#">
+							<img src="images/v.png" alt="vimeo">
+						</a>
+						<a class="employee_socials_icon" href="#">
+							<img src="images/in.png" alt="linkedin">
+						</a>
+						<a class="employee_socials_icon" href="#">
+							<img src="images/instagram.png" alt="instagram">
+						</a>
+					</p>
+				</div>
+				<div class="employee">
+					<img class="icon" src="images/ourteam6.png" alt="employee3">
+					<p class="employee_name">Sarah Doe</p>
+					<p class="employee_company">CEO</p>
+					<p class="employee_text">Proin vulputate aliquamimi nec rent. Sed entum velit vel ipsum bibendum
+						tristique.
+					</p>
+					<p class="employee_socials">
+						<a class="employee_socials_icon" href="#">
+							<img src="images/facebook.png" alt="facebook">
+						</a>
+						<a class="employee_socials_icon" href="#">
+							<img src="images/twitter.png" alt="twitter">
+						</a>
+						<a class="employee_socials_icon" href="#">
+							<img src="images/skype.png" alt="skype">
+						</a>
+						<a class="employee_socials_icon" href="#">
+							<img src="images/google.png" alt="google+">
+						</a>
+						<a class="employee_socials_icon" href="#">
+							<img src="images/v.png" alt="vimeo">
+						</a>
+						<a class="employee_socials_icon" href="#">
+							<img src="images/in.png" alt="linkedin">
+						</a>
+						<a class="employee_socials_icon" href="#">
+							<img src="images/instagram.png" alt="instagram">
+						</a>
+					</p>
+				</div>
+				<div class="employee">
+					<img class="icon" src="images/ourteam7.png" alt="employee4">
+					<p class="employee_name">Sarah Doe</p>
+					<p class="employee_company">CEO</p>
+					<p class="employee_text">Proin vulputate aliquamimi nec rent. Sed entum velit vel ipsum bibendum
+						tristique.
+					</p>
+					<p class="employee_socials">
+						<a class="employee_socials_icon" href="#">
+							<img src="images/facebook.png" alt="facebook">
+						</a>
+						<a class="employee_socials_icon" href="#">
+							<img src="images/twitter.png" alt="twitter">
+						</a>
+						<a class="employee_socials_icon" href="#">
+							<img src="images/skype.png" alt="skype">
+						</a>
+						<a class="employee_socials_icon" href="#">
+							<img src="images/google.png" alt="google+">
+						</a>
+						<a class="employee_socials_icon" href="#">
+							<img src="images/v.png" alt="vimeo">
+						</a>
+						<a class="employee_socials_icon" href="#">
+							<img src="images/in.png" alt="linkedin">
+						</a>
+						<a class="employee_socials_icon" href="#">
+							<img src="images/instagram.png" alt="instagram">
+						</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="sponsors">
+		<div class="container">
+			<div class="inner sponsors_inner">
+				<div class="sponsor_image">
+					<img src="images/netcredit.png" alt="netcredit">
+				</div>
+				<div class="sponsor_image">
+					<img src="images/paroo.png" alt="paroo">
+				</div>
+				<div class="sponsor_image">
+					<img src="images/foxter.png" alt="foxter">
+				</div>
+				<div class="sponsor_image">
+					<img src="images/counsel.png" alt="counsel">
+				</div>
+				<div class="sponsor_image">
+					<img src="images/kamcord.png" alt="kamcord">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="mailing">
+		<div class="container">
+			<p id="mailing_title">Get in Touch!</p>
+			<form>
+				<div class="mailing_name">
+					<input class="name" type="text" placeholder="    Name*">
+					<img class="img_name" src="images/contact.png" alt="contact">
+				</div>
+				<div class="mailing_name">
+					<input class="emailname" type="email" placeholder="    E-mail*">
+					<img class="img_email" src="images/contact1.png" alt="mail icon">
+				</div>
+				<div class="mailing_message">
+					<textarea class="message" placeholder="    Message"></textarea>
+				</div>
+				<div class="mailing_button">
+					<button class="send" type="submit">SEND MESSAGE</button>
+					<button class="clear" type="reset">CLEAR
+						<img class="img_clear" src="images/cross.png" alt="cross icon">
+					</button>
+				</div>
+			</form>
+		</div>
+	</section>
+	<section class="twitter">
+		<div class="container">
+			<div class="inner inner_twitter">
+				<div class="twitter_icon">
+					<img src="images/twitter1.png" alt="twitter">
+				</div>
+				<ul id="twitter_slides">
+					<li class="twitter_slide twitter_active">
+						<p class="twitter_text"><a href="">@circles</a> Because we know you don't want to be in both
+							portrait AND landscape! We care about limited format ... <a href="">by Quill</a><br />
+							<span>about 5 minutes ago</span>
+						</p>
+					</li>
+					<li class="twitter_slide ">
+						<p class="twitter_text"><a href="">@circles</a> Because we know you don't want to be in both
+							portrait AND landscape! We care about limited format ... <a href="">by Quill</a><br />
+							<span>about 5 minutes ago</span>
+						</p>
+					</li>
+					<li class="twitter_slide ">
+						<p class="twitter_text"><a href="">@circles</a> Because we know you don't want to be in both
+							portrait AND landscape! We care about limited format ... <a href="">by Quill</a><br />
+							<span>about 5 minutes ago</span>
+						</p>
+					</li>
+				</ul>
+				<div class="twitter_button">
+					<button class="left_arrow_twitter" id="left_arrow">
+						<img src="images/arrowl_twit.png" alt="arrow left icon">
+					</button>
+					<button class="right_arrow_twitter" id="right_arrow">
+						<img src="images/arrowr_twit.png" alt="arrow right icon">
+					</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="footer">
+		<div class="container">
+			<div class="inner inner_footer">
+				<div class="footer_logo" id="footer_logo">
+					<div class="img_logo">
+						<img src="images/footer_logo.png" alt="footer logo">
+					</div>
+					<p class="title_logo">MARINE</p>
+					<p class="text_footer">Vivamus orci sem,consectetur ut vestibulum a, mper ac dui. aenean tellus
+						risl,
+						commodo eu aliquet ut, pulvinar ut sapien. Proin tate aliquam mi nec hendrerit.</p>
+				</div>
+				<div class="footer_posts">
+					<p class="footer_title">Recent Posts</p>
+					<p class="footer_post"><a href="">DEC 15,2012</a> | <a href="">BY ADMIN</a></p>
+					<p class="footer_title_post">Morbi a libero eget erat auctor.</p>
+					<p class="text_footer">Sus vitae id tortor suspendisse stibulum eu igula loren ivamus orci sem,
+						ectetur.
+					</p>
+					<hr id = "footer_line" color ="#23323a"/>
+					<p class="footer_post">DEC 15,2012 BY ADMIN</p>
+					<p class="footer_title_post">Morbi a libero eget erat auctor.</p>
+					<p class="text_footer">Sus vitae id tortor suspendisse stibulum eu igula loren ivamus orci sem,
+						ectetur.
+					</p>
+				</div>
+				<div class="footer_contacts">
+					<p class="footer_title">Contacts</p>
+					<div class="inner_block">
+						<div class="img_contacts">
+							<img src="images/location.png" alt="location icon">
+						</div>
+						<p class="text_footer text_contacts">Phoenix Inc.<br />
+							PO Box 21177<br />
+							Little Lonsdale St, Melbourne<br />
+							Victoria 8011 Australia<br />
+						</p>
+					</div>
+					<div class="inner_block">
+						<div class="img_contacts">
+							<img src="images/mobile.png" alt="mobile icon">
+						</div>
+						<p class="text_footer text_contacts"><a>Phone: (415) 124-5678</a><br />
+							Fax: (415) 124-5678<br />
+						</p>
+					</div>
+					<div class="inner_block">
+						<div class="img_contacts">
+							<img src="images/mail.png" alt="mail icon">
+						</div>
+						<p class="text_footer text_contacts last_contact">support@yourname.com</p>
+					</div>
+				</div>
+				<div class="footer_newsletter">
+					<p class="footer_title">Newsletter Signup</p>
+					<p class="text_footer">By subscribing to our mailing list you will get the latest news from us.</p>
+					<form>
+						<div class="footer_form">
+							<input class="footer_email" type="email" placeholder="">
+							<div class="icon_email">
+								<img src="images/checkmark.png" alt="check icon">
+							</div>
+						</div>
+					</form>
+					<p class="follow_us">Follow Us</p>
+					<p class="footer_socials">
+						<a class="footer_socials_icon" href="#">
+							<img src="images/facebook.png" alt="facebook">
+						</a>
+						<a class="footer_socials_icon" href="#">
+							<img src="images/twitter.png" alt="twitter">
+						</a>
+						<a class="footer_socials_icon" href="#">
+							<img src="images/skype.png" alt="skype">
+						</a>
+						<a class="footer_socials_icon" href="#">
+							<img src="images/google.png" alt="google+">
+						</a>
+						<a class="footer_socials_icon" href="#">
+							<img src="images/v.png" alt="vimeo">
+						</a>
+						<a class="footer_socials_icon" href="#">
+							<img src="images/in.png" alt="linkedin">
+						</a>
+						<a class="footer_socials_icon" href="#">
+							<img src="images/instagram.png" alt="instagram">
+						</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="inner">
+				<p>© 2013 MARINE. All Rights Reserved</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="scripts/phone_for_mobile.js"></script>
+	<script src="scripts/socials-for-mobile.js"></script>
+	<script src="scripts/search.js"></script>
+	<script src="scripts/big-slider.js"></script>
+	<script src="scripts/glider.js"></script>
+	<script src="scripts/project-glider.js"></script>
+	<script src="scripts/accordeon.js"></script>
+	<script src="scripts/twitter-slider.js"></script>
+
+
+</body>
+</html>
